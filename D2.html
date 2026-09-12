@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>D2｜診断結果</title>
+
+  <link rel="stylesheet" href="D.css">
+
+</head>
+
+<body>
+
+  <main class="d-page">
+
+    <header class="d-header">
+
+      <p class="step">D · STEP 2 / 3</p>
+
+      <h1>D2</h1>
+
+      <h2>未来診断</h2>
+
+    </header>
+
+
+    <section
+      id="result-card"
+      class="d-result"
+    >
+
+      <div class="d-mark">
+        D
+      </div>
+
+      <p class="label">
+        YOUR FUTURE
+      </p>
+
+      <h2 id="result-name">
+        ---
+      </h2>
+
+      <div class="future-number">
+        <span id="score">--</span>
+        <small>%</small>
+      </div>
+
+      <h3 id="result-title">
+        ---
+      </h3>
+
+      <p id="result-text">
+        ---
+      </p>
+
+    </section>
+
+
+    <div class="buttons">
+
+      <button
+        class="main-button"
+        onclick="goD3()"
+      >
+        D3 結果画像を作る
+      </button>
+
+      <a
+        href="D1.html"
+        class="sub-button"
+      >
+        D1に戻る
+      </a>
+
+    </div>
+
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <script src="D.js"></script>
+
+</body>
+</html>
